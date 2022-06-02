@@ -1,0 +1,31 @@
+:root {
+    background-color: white;
+    --primary: crimson;
+    --secondary: yellow;
+    --third: black;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font font-weight: 400;
+}
+
+h1 {
+    color: black;
+}
+h2 {
+    color: black;
+}
+/* nav styles */
+
+header {
+    background: var(--primary);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
