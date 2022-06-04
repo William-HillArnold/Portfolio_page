@@ -4,28 +4,53 @@
     --secondary: yellow;
     --third: black;
 }
-*, *::before, *::after {
+* {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font font-weight: 400;
+    padding: 0;
 }
 
-h1 {
-    color: black;
+/* nav styles */
+
+.container { 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: var(--primary);
+    color: white;
+}
+
+.logo {
+    font-size: 35px;
+    margin: 15px;
+}
+.nav_links ul  {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav_links li {
+    list-style: none;
+}
+.nav_links li a {
+text-decoration: none;
+color: whitesmoke;
+padding: 15px;
+display: block;
+}
+.nav_links li:hover {
+    background-color: var(--third);
+}
+
+
+
+/*.nav_links{
+
+
 }
 h2 {
     color: black;
-}
-/* nav styles */
-
-header {
-    background: var(--primary);
-    text-align: center;
-    position: fixed;
-    width: 100%;
 }
