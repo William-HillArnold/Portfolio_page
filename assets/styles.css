@@ -5,16 +5,38 @@
     --third: black;
 }
 * {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
 }
-img {
-   margin: auto, auto, auto, auto;
+
+h2 {
+    font-size: 40px;
+    font-style: italic;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
+img {
+    width: 300px;
+    height: 300px;
+   margin-right: 20px;
+   margin-left: 20px;
+}
+ion-icon {
+    font-size: 64px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: var(--primary);
+  }
+  
+
 footer {
+    margin-top: 100px;
     width: 100%;
     align-items: center;
 }
@@ -60,8 +82,8 @@ li, a {
     text-decoration: underline;
     color: var(--secondary);
     background-color: var(--third);
-    /* border: 10px; */
 }
+
 /* h2, paragraphs tags and body images */
 .column_layout {
     flex-direction: column;
@@ -75,37 +97,38 @@ li, a {
 .flexbox_1 {
     margin-top: 100px;
     display: inline-flex;  
-    justify-content: left;
-    /* flex-wrap: wrap;     */
+    justify-content: left; 
+    flex-wrap: unset; 
 }
 
 .flexbox_2 {
     margin-top: 100px;
     display: inline-flex;
-    justify-content: right;
-    /* flex-wrap: wrap; */
+     justify-content: right; 
+    flex-wrap: unset; 
+ 
 }
 
 .flexbox_3 {
     margin-top: 100px;
     display: inline-flex;  
-    justify-content: left;
+     justify-content: left;
+     flex-wrap: unset; 
 }
 
 .flexbox_4 {
     margin-top: 100px;
     display: inline-flex;
     justify-content: right;
+    flex-wrap: unset; 
 }
 
 .about_me {
-    text-align: center;
     display: flex;
     padding-right: 100px;
 }
 
 .resume {
-    position: sticky;
     display: flex;
     justify-content: right;
     padding-left: 100px;
@@ -122,3 +145,6 @@ li, a {
     padding-left: 100px;
 }
 
+@media {
+
+}
