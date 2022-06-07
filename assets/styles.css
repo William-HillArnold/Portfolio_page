@@ -73,7 +73,7 @@ li{
 li, a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 25px;
     color: whitesmoke;
     text-decoration: none;
 }
@@ -104,7 +104,7 @@ li, a {
 .flexbox_2 {
     margin-top: 100px;
     display: inline-flex;
-     justify-content: right; 
+    justify-content: right; 
     flex-wrap: unset; 
  
 }
@@ -144,7 +144,17 @@ li, a {
     display: flex;
     padding-left: 100px;
 }
-
-@media {
-
+ 
+@media (max-width: 768px) {
+    #nav, li, a, h1, .flexbox_1, .flexbox_2, .flexbox_3, .flexbox_4 { 
+    font-size: 15px; 
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    }
 }
+    /* @media () { */
+    /* }   */
+
+
