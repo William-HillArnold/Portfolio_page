@@ -1,19 +1,28 @@
 :root {
-    background-color: white;
+    background-color: whitesmoke;
     --primary: crimson;
     --secondary: yellow;
     --third: black;
 }
-* {
-    
+
+* {   
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
 }
+.background_image {
+     /* background-color: var(--secondary); */
+     background-image: linear-gradient(yellow, red);
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+     background
+}
 
 h2 {
+    
     font-size: 40px;
     font-style: italic;
     padding-left: 30px;
