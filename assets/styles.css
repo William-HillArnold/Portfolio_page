@@ -94,14 +94,14 @@ li, a {
     align-items: stretch;
 }
 
-.flexbox_1 {
+#flexbox_1 {
     margin-top: 100px;
     display: inline-flex;  
     justify-content: left; 
     flex-wrap: unset; 
 }
 
-.flexbox_2 {
+#flexbox_2 {
     margin-top: 100px;
     display: inline-flex;
     justify-content: right; 
@@ -109,44 +109,44 @@ li, a {
  
 }
 
-.flexbox_3 {
+#flexbox_3 {
     margin-top: 100px;
     display: inline-flex;  
      justify-content: left;
      flex-wrap: unset; 
 }
 
-.flexbox_4 {
+#flexbox_4 {
     margin-top: 100px;
     display: inline-flex;
     justify-content: right;
     flex-wrap: unset; 
 }
 
-.about_me {
+#about_me {
     display: flex;
     padding-right: 100px;
 }
 
-.resume {
+#resume {
     display: flex;
     justify-content: right;
     padding-left: 100px;
     
 }
 
-.work {
+#work {
     display: flex;
     padding-right: 100px;
 }
 
-.contact_me {
+#contact_me {
     display: flex;
     padding-left: 100px;
 }
  
 @media (max-width: 768px) {
-    #nav, li, a, h1, .flexbox_1, .flexbox_2, .flexbox_3, .flexbox_4 { 
+    #nav, li, a, h1, #flexbox_1, #flexbox_2, #flexbox_3, #flexbox_4 { 
     font-size: 15px; 
     display: block;
     padding-left: 10px;
